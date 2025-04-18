@@ -33,7 +33,7 @@ A full-stack mobile application that allows users to register, log in, and explo
 ---
 
 ## 📦 Project Structure
-...
+```
 /homeservices
   ├── /screens
   ├── /components
@@ -42,7 +42,7 @@ A full-stack mobile application that allows users to register, log in, and explo
   └── App.js 
   └── package.json
   └── README.md
-...
+  ```
 
 ## 📦 Dependencies
 
@@ -55,16 +55,18 @@ npm install @react-navigation/stack
 npm install @react-navigation/bottom-tabs
 npm install react-native-screens react-native-safe-area-context react-native-gesture-handler react-native-reanimated
 npm install axios
+```
 
 🖥️ Node.js (Backend)
-bash
+```bash
 cd Server
 npm install
 npm install express cors mysql2 bcryptjs jsonwebtoken
+```
 
 🏗️ Database Setup (MySQL)
 Run the following SQL:
-
+```
 CREATE TABLE login_users (
   id INT NOT NULL AUTO_INCREMENT,
   email VARCHAR(255) NOT NULL,
@@ -73,10 +75,11 @@ CREATE TABLE login_users (
   regDate DATETIME,
   PRIMARY KEY (email)
 );
+```
 
 📝 Setup Instructions
 Clone the repo:
-
+```
 git clone https://github.com/your-username/homeservices.git
 cd homeservices
 
@@ -87,9 +90,6 @@ node Server.js
 
 Run the React Native app
 npm start
-
-
-
-Let me know if you’re using **Expo**, want to split frontend/backend into different repos, or want to auto-generate AP
+```
 
 
