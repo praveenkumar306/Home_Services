@@ -82,9 +82,10 @@ Clone the repo:
 ```
 git clone https://github.com/your-username/homeservices.git
 cd homeservices
-
+```
 Install frontend dependencies
 Configure your backend Server.js to match your local MySQL setup
+```
 Run backend server
 node Server.js
 
